@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 id="main-heading">Welcome to My Interactive Page</h1>
+    </header>
+
+    <nav>
+        <p>Click the buttons below to interact with the page.</p>
+    </nav>
+
+    <main>
+        <section id="dynamic-section">
+            <p id="text">This text will change when you click the button.</p>
+        </section>
+
+        <section>
+            <button onclick="changeText()">Change Text</button>
+            <button onclick="toggleStyle()">Toggle Highlight</button>
+            <button onclick="addElement()">Add Element</button>
+            <button onclick="removeElement()">Remove Last Element</button>
+        </section>
+
+        <ul id="list-container">
+            <!-- New elements will be added here -->
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Developed by Top Student</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
